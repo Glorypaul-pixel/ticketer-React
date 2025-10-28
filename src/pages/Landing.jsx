@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import HeroImg from "../assets/hero-wave.svg"
 export default function Landing() {
   return (
     <section className="hero">
@@ -21,7 +21,7 @@ export default function Landing() {
         <div className="hero-visual" aria-hidden>
           <div className="circle circle-1"></div>
           <div className="circle circle-2"></div>
-          <img src="/assets/hero-wave.svg" alt="wave" className="hero-wave" />
+          <img src={HeroImg} alt="wave" className="hero-wave" />
         </div>
       </div>
 
